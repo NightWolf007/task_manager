@@ -7,10 +7,7 @@ gem 'rails-api'
 
 gem 'spring', :group => :development
 
-
 gem 'pg'
-
-
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
@@ -22,7 +19,17 @@ gem 'pg'
 # gem 'unicorn'
 
 # Deploy with Capistrano
-# gem 'capistrano', :group => :development
+gem 'capistrano', :group => :development
 
 # To use debugger
 # gem 'ruby-debug19', :require => 'ruby-debug'
+
+gem 'rack-cors'
+
+gem 'active_model_serializers', :git => 'https://github.com/beauby/active_model_serializers.git'
+gem 'kaminari'
+
+gem 'devise'
+gem 'dotenv-rails'
+
+gem 'byebug', :group => :development
